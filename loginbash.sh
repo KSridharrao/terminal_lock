@@ -2,7 +2,7 @@
 echo -n  "Enter password:"
 read -s password
 echo
-if [[ $password == "sridhar" ]]
+if [[ $password == "<your_password" ]]
 then
 figlet Welcome
 else
