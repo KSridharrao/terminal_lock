@@ -1,2 +1,5 @@
 # terminal_lock
-clone repo and unzip next add loginbash file path to PATH env variable and add command of loginbash.sh in .bashrc file present in home directory 
+git clone https://github.com/iSRIDHARRAO/terminal_lock.git
+cd terminal_lock
+chmod +x index.sh
+./index.sh
