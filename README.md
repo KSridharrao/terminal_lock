@@ -6,3 +6,5 @@ cd terminal_lock
 chmod +x index.sh
 
 ./index.sh
+
+exit
