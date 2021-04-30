@@ -1,4 +1,7 @@
 #!/usr/bin/bash
+read -s -p "Enter your password: " password
+sed "/s/admin/$password/g" loginbash.sh > login
+rm loginbash.sh
+chmod +x login
 echo PATH=$PATH:`pwd` >> $HOME/.bashrc
-echo loginbash.sh >> $HOME/.bashrc
-sudo chmod +x loginbash.sh
+echo login >> $HOME/.bashrc
