@@ -4,5 +4,6 @@ echo
 sed "s/admin/$password/g" loginbash.sh > login12
 rm loginbash.sh
 sudo chmod +x login12
-sudo echo PATH=$PATH:`pwd` >> $HOME/.bashrc
+sudo mv login12 /usr/bin/
 sudo echo login12 >> $HOME/.bashrc
+sudo rm -r ../terminal_lock
