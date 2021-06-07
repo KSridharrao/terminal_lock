@@ -7,3 +7,4 @@ sudo chmod +x login12
 sudo mv login12 /usr/bin/
 sudo echo login12 >> $HOME/.bashrc
 sudo rm -r ../terminal_lock
+echo "bye"
